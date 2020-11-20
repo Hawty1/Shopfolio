@@ -1,1 +1,33 @@
-
+/*Header*/
+#headercontainer{
+  display:flex;
+  flex-wrap: wrap;
+  width:100%;
+  height:66px;
+  background-color: grey;
+}
+#logo{
+background-color: red;
+align-self: center;
+margin-left:auto;
+margin-right:-20em;
+height:inherit;
+}
+#logo > h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size:2.5em;
+}
+#Menucontainer{
+display:flex;
+flex-direction: row;
+flex-wrap:wrap;
+margin-top: 32px;
+margin-left:auto;
+height:50%;
+width:20%;
+background-color:lightblue;
+}
+.MenuIcon{
+border-style:solid;
+width:auto;
+}
