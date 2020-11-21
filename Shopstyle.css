@@ -21,7 +21,7 @@ height:inherit;
 display:flex;
 flex-direction: row;
 flex-wrap:wrap;
-margin-top: 32px;
+margin-top:27px;
 margin-left:auto;
 height:50%;
 width:20%;
@@ -30,4 +30,8 @@ background-color:lightblue;
 .MenuIcon{
 border-style:solid;
 width:auto;
+
+}
+#searchicon > img{
+  height:30px;
 }
