@@ -5,17 +5,21 @@
   width:100%;
   height:66px;
   background-color: grey;
+
 }
 #logo{
-background-color: red;
-align-self: center;
-margin-left:auto;
-margin-right:-20em;
+  margin-left:auto;
+  margin-right:-15%;
+height:auto;
+background-color:;
 height:inherit;
+
 }
 #logo > h1 {
+  color:red;
   font-family: 'Sedgwick Ave', cursive;
-  font-size:2.5em;
+  font-size:3.5em;
+  margin-top:0;
 }
 #Menucontainer{
 display:flex;
@@ -23,15 +27,40 @@ flex-direction: row;
 flex-wrap:wrap;
 margin-top:27px;
 margin-left:auto;
-height:50%;
-width:20%;
-background-color:lightblue;
-}
-.MenuIcon{
-border-style:solid;
+height:auto;
 width:auto;
 
 }
+.MenuIcon{
+border-style:solid;
+margin-top:auto;
+height:35px;
+width:auto;
+background-color:grey;
+}
 #searchicon > img{
   height:30px;
+}
+#searchicon:hover{
+  height:50px;
+}
+#languageicon > img{
+
+height:30px;
+width:35pX;
+}
+#membericon > img{
+
+  height:30px;
+  width:35px;
+}
+#favouriteicon > img{
+
+  height:30px;
+  width:35px;
+}
+#shoppincardicon > img{
+
+  height:30px;
+  width:35px;
 }
