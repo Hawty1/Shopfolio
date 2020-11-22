@@ -1,5 +1,7 @@
 /*Header*/
+
 #headercontainer{
+  position:relative;
   display:flex;
   flex-wrap: wrap;
   width:100%;
@@ -8,17 +10,20 @@
 
 }
 #logo{
-  margin-left:auto;
-  margin-right:-15%;
+  width:24em;
+  position:absolute;
+  margin-left:35%;
+  margin-right:50%;
 height:auto;
 background-color:;
 height:inherit;
-
+z-index:;
 }
 #logo > h1 {
-  color:red;
+  
+  color:white;
   font-family: 'Sedgwick Ave', cursive;
-  font-size:3.5em;
+  font-size:5.4em;
   margin-top:0;
 }
 #Menucontainer{
@@ -41,8 +46,24 @@ background-color:grey;
 #searchicon > img{
   height:30px;
 }
-#searchicon:hover{
-  height:50px;
+#searchbar{
+  display:none;
+  margin-top:auto;
+  height:30px;
+  width:180px;
+  border-style:solid;
+  border-radius:6px;
+  background-color:lightgrey;
+  animation: searchbarpopup 0.5s 1;
+
+}
+@keyframes searchbarpopup {
+0%{
+    width:0;
+}
+100%{
+    width:180px;
+}
 }
 #languageicon > img{
 
