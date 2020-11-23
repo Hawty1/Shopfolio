@@ -16,10 +16,17 @@
 
   <div id="headercontainer">
     <div id="logo"><h1>SNEAK IT</h1></div>
+    <div id="languagecontainer">
+    <button class="languageselecticons" id="germanicon"><img src="img/germany-31017.svg">  </button>
+    <button class="languageselecticons" id="frenchicon"><img src="img/france-151928.svg">  </button>
+    <button class="languageselecticons" id="italyicon"><img src="img/italy-162326.svg">  </button>
+    <button class="languageselecticons" id="spainicon"><img src="img/spain-28530.svg"> </button>
+    <button class="languageselecticons" id="russianicon"><img src="img/russia-162400.svg">  </button>
+    </div>
     <div id="Menucontainer">
       <input type="textarea" id="searchbar"></input>
       <button class="MenuIcon" id="searchicon" onmousedown="activatesearchbar()" ><img src="img/Scope.svg"></button>
-      <button class="MenuIcon" id="languageicon"> <img src="img/engusaflag.svg" alt=""></button>
+      <button class="MenuIcon" id="languageicon" onmousedown="activatelanguagebar()"> <img id="selectedflag" src="img/engusaflag.svg" alt=""></button>
       <button class="MenuIcon" id="membericon"><img src="img/user-icon.svg" alt=""></button>
       <button class="MenuIcon" id="favouriteicon"><img src="img/favorite.svg" alt=""></button>
       <button class="MenuIcon" id="shoppincardicon"><img src="img/shopping-cart.svg" alt=""></button>
