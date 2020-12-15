@@ -9,14 +9,11 @@
 }
 
 #logo {
-  width: 24em;
-  position: absolute;
-  margin-left: 35%;
-  margin-right: 50%;
+  left:40%;
+  position: relative;
   height: auto;
-  background-color: ;
   height: inherit;
-  z-index: ;
+  background-color:darkolivegreen;
 }
 
 #logo>h1 {
@@ -105,3 +102,27 @@
   height:15px;
   width:auto;
   }
+#Sidebar{
+  background-color: darkgrey;
+  display:flex;
+  position:absolute;
+  height:100%;
+  width:10vw;
+  margin-top:2px;
+}
+#Categories > ul  {
+ 
+ width:auto;
+ margin:5px;
+ 
+}
+#Categories > ul >li{
+  margin-bottom:12px;
+  margin-left:-2.5em;
+  list-style-type: none;
+}
+#Categories > ul > li > a:link {
+    text-decoration: none;
+    
+
+}
