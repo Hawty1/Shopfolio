@@ -154,15 +154,15 @@
   margin-right:auto;
   margin-left:auto;
   margin-top:2%;
-  width:90%;
-  height:100%;
+  width:60%;
+  height:auto;
   background-color:lightcoral;
 }
 .welcome-add{
   background-color:lightpink;
   width:49%;
   height:35%;
-  margin:5px;
+  margin:10px;
   margin-right:auto;
   margin-left:auto;
   border-style:solid;
