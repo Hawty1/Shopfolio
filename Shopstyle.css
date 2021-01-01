@@ -1,7 +1,7 @@
 /*Header*/
 #headercontainer {
   position: fixed;
-  top: 0.5em;
+  top: 0;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -14,7 +14,7 @@
 #logo {
   left:40%;
   position: relative;
-  
+  top:-10px;
   height: inherit;
 
 }
@@ -139,88 +139,21 @@
   margin-bottom:2px;
 }
 /*WELCOME-PAGE-CONTENT*/
-#welcome-content{
-  display:flex;
-  position:absolute;
-  height:90%;
-  width:99%;
-  background-color:khaki;
-  margin-top:75px;
-  margin-right:auto;
-}
 #welcome-add-container{
-  
   display:flex;
-  flex-wrap: wrap;
-  margin-right:auto;
+  position:relative;
+  top:70px;
   margin-left:auto;
-  margin-top:2%;
-  width:65%;
+  margin-right:auto;
   height:auto;
-  background-color:lightcoral;
+  width:90%;
+  background-color:lightgrey;
 }
-#welcome-add-container > img {
-  height:380px;
-  width:auto;
-  margin-right:auto;
-  margin-left:auto;
-}
-.welcome-add{
-  background-color:lightpink;
-  width:49%;
-  height:35%;
-  margin:10px;
-  margin-right:auto;
-  margin-left:auto;
-  border-style:solid;
-}
-#welcome-add-5{
-  width:96%;
-  height:23%;
-  align-self: flex-end;
-  margin-right:auto;
-  margin-left:auto;
-}
-
-/*
 #welcome-add-1{
-width:20%;
-height:30%;
-background-color:lightcoral;
-border-style:dotted;
-position:relative;
-margin-top:3%;
+  margin-left:auto;
+  margin-right:auto;
 }
-#welcome-add-2{
-  width:20%;
-  height:30%;
-background-color:lightcoral;
-border-style:dotted;
-position:relative;
-margin-top:3%;
-margin-right:
+#new-year-countdown{ /*img*/
+  height:766px;
+  max-width:500px;
 }
-#welcome-add-3{
-  width:20%;
-height:30%;
-background-color:lightcoral;
-border-style:dotted;
-position:relative;
-top:40%;
-}
-#welcome-add-4{
-  width:20%;
-  height:30%;
-background-color:lightcoral;
-border-style:dotted;
-position:relative;
-top:40%;
-}
-#welcome-add-5{
-width:200px;
-height:400px;
-background-color:lightcoral;
-border-style:dotted;
-position:relative;
-top:80%;
-} */
