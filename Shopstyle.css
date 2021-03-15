@@ -18,11 +18,12 @@ body{
 #headercontainer > h1 {
   margin-top:0;
   color: white;
-  font-size:5.5em;
+  font-size:5em;
   font-family: 'Sedgwick Ave', cursive;
   position:absolute;
-  width:auto;
-  height:100%;
+  
+  
+  
 }
 #Menucontainer {
   display: flex;
@@ -143,12 +144,19 @@ body{
   margin-left:auto;
   margin-right:auto;
   display:flex;
-justify-self: center;
+  flex-direction:column;
+  justify-self: center;
   margin-top:6rem;
-  height:95vh;
-  width:80%;
+  height:auto;
+  width:80vw;
   background-color:rgb(139, 139, 139);
+  align-items:center;
 }
-#welcome-add-1{
+.welcome-add{
+  border-style:dotted;
+  border-color:black;
+  height:40.5vw;
+  width:95%;
+  margin-top:1%;
 
 }
