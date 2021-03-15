@@ -153,10 +153,55 @@ body{
   align-items:center;
 }
 .welcome-add{
+  display:flex;
   border-style:dotted;
   border-color:black;
-  height:40.5vw;
+  height:auto;
   width:95%;
   margin-top:1%;
-
+}
+.welcome-add-description{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:45%;
+  height:80%;
+  border-style:dotted;
+  border-color:red;
+}
+.welcome-add-description > p {
+  line-height: 2em;
+  text-align:end;
+  font-size:auto;
+  border-style:dotted;
+  border-color:chartreuse;
+  height:auto;
+  width:95%;
+}
+.welcome-add-imgSection{
+  display:flex;
+  width:55%;
+  height:auto;
+  border-style:dotted;
+  border-color:cornflowerblue;
+  flex-direction: column;
+  align-content:flex-end;
+}
+.welcome-add-img{
+  height:50%;
+  width:50%; 
+  border-style:dotted;
+  border-color:black;
+}
+.welcome-add-img > img{
+  height:100%;
+  width:100%;
+}
+.welcome-add-linkSection{
+  
+  margin-bottom:2.1%;
+  width:95%;
+  height:20%;
+  border-style:dotted;
+  border-color:cyan;
 }
