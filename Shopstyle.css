@@ -1,48 +1,48 @@
 /*Header*/
+body{
+  background-color:#494949;
+}
 #headercontainer {
+  
   position: fixed;
   top: 0;
+  right:0;
   display: flex;
-  flex-wrap: wrap;
+  align-content:center;
+  justify-content:center;
   width: 100%;
-  height: 66px;
+  height: 4rem;
   background-color: grey;
   z-index: 2;
-  margin-left:-8px;
-  
 }
-#logo {
-  left:40%;
-  position: relative;
-  top:-10px;
-  height: inherit;
-
-}
-#logo>h1 {
+#headercontainer > h1 {
+  margin-top:0;
   color: white;
+  font-size:5.5em;
   font-family: 'Sedgwick Ave', cursive;
-  font-size: 5.4em;
-  margin-top: 0;
+  position:absolute;
+  width:auto;
+  height:100%;
 }
 #Menucontainer {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 27px;
-  margin-left: auto;
-  height: auto;
-  width: auto;
+  height: 60%;
+  width: 20%;
+  position:absolute;
+  right:0;
+  align-self:center;
 }
 .MenuIcon {
   border-style: solid;
-  margin-top: auto;
-  height: 35px;
-  width: auto;
+  height: 100%;
+  width: 20%;
   background-color: grey;
 }
 
 #searchicon>img {
-  height: 30px;
+  height:100%;
+  width:100%;
 }
 
 #searchbar {
@@ -51,7 +51,7 @@
   height: 30px;
   width: 180px;
   border-style: solid;
-  border-radius: 6px;
+  border-radius: 10%;
   background-color: lightgrey;
   animation: searchbarpopup 0.5s 1;
   z-index: +1;
@@ -67,8 +67,8 @@
 }
 
 .MenuIcon>img {
-  height: 30px;
-  width: 35pX;
+  height: 100%;
+  width:100%;
 }
 #languagecontainer{
       width:auto;
@@ -140,20 +140,15 @@
 }
 /*WELCOME-PAGE-CONTENT*/
 #welcome-add-container{
-  display:flex;
-  position:relative;
-  top:70px;
   margin-left:auto;
   margin-right:auto;
-  height:auto;
-  width:90%;
-  background-color:lightgrey;
+  display:flex;
+justify-self: center;
+  margin-top:6rem;
+  height:95vh;
+  width:80%;
+  background-color:rgb(139, 139, 139);
 }
 #welcome-add-1{
-  margin-left:auto;
-  margin-right:auto;
-}
-#new-year-countdown{ /*img*/
-  height:766px;
-  max-width:500px;
+
 }
